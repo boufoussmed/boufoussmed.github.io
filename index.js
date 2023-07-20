@@ -12,5 +12,3 @@ const PORT = process.env.PORT || 5000
 app.listen(PORT, rep => {
     console.log('listening on port', rep);
 });
-
-console.log('hey');
