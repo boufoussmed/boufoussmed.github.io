@@ -1,5 +1,5 @@
 {
-  "homepage": "https://boufoussmed.github.io/boufouss",
+  "homepage": "https://boufoussmed.github.io",
   "name": "server",
   "version": "1.0.0",
   "description": "",
@@ -10,13 +10,16 @@
   },
   "scripts": {
     "start": "node index.js",
-    "predeploy":"npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "gh-pages": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "s": "^1.0.0"
   }
 }
